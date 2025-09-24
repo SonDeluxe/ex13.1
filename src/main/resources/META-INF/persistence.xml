@@ -1,0 +1,21 @@
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             version="3.0">
+    <persistence-unit name="EmailPU">
+        <class>vn.edu.hcmute.fit.ex13.User</class>
+
+        <properties>
+            <!-- JDBC connection -->
+            <property name="jakarta.persistence.jdbc.url"
+                      value="jdbc:postgresql://dpg-d35v54hr0fns73bgc2n0-a.oregon-postgres.render.com:5432/email_db?sslmode=require"/>
+            <property name="jakarta.persistence.jdbc.user" value="sonhcmute"/>
+            <property name="jakarta.persistence.jdbc.password" value="avjtqoPEtBoknVpwcJszLXGX8cIh35sf"/>
+            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+
+            <!-- Hibernate settings -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
