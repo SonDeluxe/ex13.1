@@ -6,7 +6,7 @@
         <properties>
             <!-- JDBC connection -->
             <property name="jakarta.persistence.jdbc.url"
-                      value="jdbc:postgresql://dpg-d35v54hr0fns73bgc2n0-a.oregon-postgres.render.com:5432/email_db?sslmode=require"/>
+                      value="jdbc:postgresql://dpg-d35v54hr0fns73bgc2n0-a.oregon-postgres.render.com:5432/exsql?sslmode=require"/>
             <property name="jakarta.persistence.jdbc.user" value="sonhcmute"/>
             <property name="jakarta.persistence.jdbc.password" value="avjtqoPEtBoknVpwcJszLXGX8cIh35sf"/>
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
