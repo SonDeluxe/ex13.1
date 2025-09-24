@@ -3,7 +3,7 @@ package vn.edu.hcmute.fit.ex13;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "users")
+@Table(name = "email_db")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
